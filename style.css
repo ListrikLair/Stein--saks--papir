@@ -1,0 +1,44 @@
+img{
+    max-width: 4rem;
+    max-height: 4rem;
+}
+
+#choiceField{
+    text-align: center;
+}
+
+#yourPokemonChoices{
+    display: grid;
+    grid-template-columns: repeat(3, 4rem);
+    position: absolute;
+    left: 50%;
+    margin-left: -6rem;
+}
+
+#battlefield{
+    background-image: url(./img/battleArena.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+    float: left;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    position: relative;
+}
+
+#enemyPokemon{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -2rem;
+}
+
+#yourPokemon{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    margin-left: -2rem;
+}
